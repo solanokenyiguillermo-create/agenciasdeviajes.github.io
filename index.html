@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expreso Nacional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=1234567891&text=Hola, me gustaria Obtener más información"
+        class="float pulse" target="_blank">
+        <i class="fa fa-whatsapp my-float "></i>
+    </a>
+
+    <header id="header">
+        <section class="Cuerpo-header">
+            <h1>Expreso Nacional</h1>
+            <p>Tu transporte seguro y confiable</p>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="nosotros/nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios/servicios.html">Servicios</a></li>
+                    <li><a href="agencias/agencias.html">Agencias</a></li>
+                    <li><a href="contacto/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <section class="banner">
+                <img src="imagenes/nacional-home-banner.webp">
+            </section>
+    </header>
+    <main>
+
+        <section class="compra-pasaje">
+            <div class="contenedor-titulo">
+                <h2>Compra tu pasaje</h2>
+                <p>¡Viaja con nosotros y descubre la comodidad en cada destino!</p>
+            </div>
+
+            <form class="buscador-pasajes">
+                <div class="campo">
+                    <label>Origen</label>
+                    <input type="text" placeholder="Origen">
+                </div>
+
+                <div class="icono-cambio">⇄</div>
+
+                <div class="campo">
+                    <label>Destino</label>
+                    <input type="text" placeholder="Destino">
+                </div>
+
+                <div class="campo">
+                    <label>Fecha de ida</label>
+                    <input type="date">
+                </div>
+
+                <div class="campo">
+                    <label>Fecha de vuelta</label>
+                    <input type="date">
+                </div>
+
+                <button type="submit" class="btn-buscar">Buscar</button>
+            </form>
+        </section>
+        <section class="destinos-favoritos">
+            <h2>Nuestros destinos favoritos</h2>
+            <p>Explora los destinos más populares y planifica tu próxima aventura con Expreso Nacional.</p>
+
+            <!-- Contenedor flex para las tarjetas -->
+            <div class="contenedor-tarjetas">
+                <article class="tarjeta-destino">
+                    <img src="imagenes/lima.jpg" alt="Lima">
+                    <h3>Lima</h3>
+                </article>
+
+                <article class="tarjeta-destino">
+                    <img src="imagenes/huanuco.jpg" alt="Huánuco">
+                    <h3>Huánuco</h3>
+                </article>
+
+                <article class="tarjeta-destino">
+                    <img src="imagenes/huancayo.jpg" alt="Huancayo">
+                    <h3>Huancayo</h3>
+                </article>
+
+                <article class="tarjeta-destino">
+                    <img src="imagenes/cerro_de_pasco.jpg" alt="Cerro de Pasco">
+                    <h3>Cerro de Pasco</h3>
+                </article>
+
+                <article class="tarjeta-destino">
+                    <img src="imagenes/junin.jpg" alt="Junín">
+                    <h3>Junín</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="encomiendas">
+            <div class="contenedor-encomiendas">
+                <h2>Gestiona tus encomiendas online</h2>
+                <p>Envía y rastrea tus paquetes de forma rápida y segura desde nuestra plataforma.</p>
+
+                <div class="bloque-contenido">
+                    <img src="imagenes/encomiendas.png" alt="Ilustración de gestión de encomiendas"
+                        class="img-encomienda">
+
+                    <div class="bloque-accion">
+                        <p class="numero-wp">📞 +51 999 999 999</p>
+                        <a href="#" class="btn-cta">Gestionar mi envío</a>
+                    </div>
+        </section>
+
+        <section class="porque-elegirnos py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">¿Por qué elegirnos?</h2>
+
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 border-0 bg-transparent">
+                            <div class="fs-1 mb-3">🕒</div>
+                            <h5 class="card-title">Puntualidad</h5>
+                            <p class="card-text text-muted">Cumplimiento estricto de horarios y constante capacitación.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 border-0 bg-transparent">
+                            <div class="fs-1 mb-3">🛡️</div>
+                            <h5 class="card-title">Seguridad</h5>
+                            <p class="card-text text-muted">Compromiso ético con la seguridad, responsabilidad y
+                                honestidad.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 border-0 bg-transparent">
+                            <div class="fs-1 mb-3">🏅</div>
+                            <h5 class="card-title">Experiencia</h5>
+                            <p class="card-text text-muted">Más de 30 años conectando la región central del Perú.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 border-0 bg-transparent">
+                            <div class="fs-1 mb-3">🚌</div>
+                            <h5 class="card-title">Comodidad</h5>
+                            <p class="card-text text-muted">Unidades modernas e innovadoras a la vanguardia del mercado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contáctanos">
+            <h2>Contáctanos</h2>
+
+            <form action="#" method="POST">
+                <p>
+                    <label for="nombre-apellido">Nombre y apellido</label>
+                    <input type="text" id="nombre-apellido" name="nombre" placeholder="Ingresa tu nombre">
+                </p>
+
+                <p>
+                    <label for="telefono">Teléfono</label><br>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 945460391">
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="correo@ejemplo.com">
+                </p>
+
+                <p>
+                    <label for="comentario">Comentario</label><br>
+                    <textarea id="comentario" name="comentario" placeholder="Tu comentario aquí" cols="40"
+                        rows="5"></textarea>
+                <p>
+                    <button type="reset">
+                        Limpiar
+                    </button>
+                    <button type="submit">
+                        <span>Enviar</span>
+                    </button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <!-- Columna 1 -->
+        <section class="footer-column">
+            <h2>Contáctanos</h2>
+            <p><span class="contacto">Teléfono:</span> <span class="dato">+51 945 460 391</span></p>
+            <p><span class="contacto">Email:</span> <span class="dato">info@expresonacional.com</span></p>
+        </section>
+        <!-- Columna 2 -->
+        <section class="footer-column">
+            <h2>Información legal</h2>
+            <p><a href="legal/terminos.html">Términos y condiciones</a></p>
+            <p><a href="legal/comprobantes.html">Comprobantes electrónicos</a></p>
+        </section>
+
+        <!-- Columna 3 -->
+        <section class="footer-column">
+            <h2>Síguenos</h2>
+            <ul class="lista-redes">
+                <li><a href="https://facebook.com"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://instagram.com"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://tiktok.com"><i class="fab fa-tiktok"></i> TikTok</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="bottom-bar">
+        <p>Expreso Nacional 2026 - Todos los derechos reservados ©</p>
+    </div>
+</footer>
+
+</html>
